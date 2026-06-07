@@ -1,0 +1,11 @@
+@mixin pooya($color){
+    color: $color
+}
+custom1 {
+    @include pooya((red))
+}
+custom2 {
+    @include pooya((rgb(40, 160, 24)))
+}custom3 {
+    @include pooya((rgb(141, 37, 167)))
+}
